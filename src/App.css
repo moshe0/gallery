@@ -1,0 +1,33 @@
+input, img, label {
+    margin: 10px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border: 1px black solid;
+    border-radius: 15px;
+
+}
+
+.Images{
+    margin: 25px;
+}
+
+#file-input {
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    overflow: hidden;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.input-label {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px black solid;
+    font-size: 15px;
+}
