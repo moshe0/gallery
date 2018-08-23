@@ -1,33 +1,37 @@
 input, img, label {
-    margin: 10px;
+    margin: 1%;
+    border-radius: 15px;
+    border: 1px black solid;
+    height: 180px;
 }
 
 .image {
-    width: 200px;
-    height: 200px;
-    border: 1px black solid;
-    border-radius: 15px;
-
+    width: 18%;
 }
 
 .Images{
     margin: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.input-label-add {
+    cursor: pointer !important;
+    font-size: 15px;
+    background: url("./plus.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 18%;
 }
 
 #file-input {
     cursor: pointer;
-    outline: none;
-    position: absolute;
-    overflow: hidden;
-    filter: alpha(opacity=0);
-    opacity: 0;
-}
-.input-label {
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    border: 1px black solid;
-    font-size: 15px;
+    display: none;
+    opacity: 1;
 }
